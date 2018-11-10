@@ -1,0 +1,29 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "GGG",
+    "QSQ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_slab",
+      "data": 3
+    },
+    "S": {
+      "item": "seasonings:season_clock"
+    },
+    "Q": {
+      "type": "forge:ore_dict",
+	  "ore": "gemQuartz"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+	  "ore": "blockGlass"
+    }
+  },
+  "result": {
+    "item": "seasonings:season_sensor_spring",
+    "data": 0
+  }
+}

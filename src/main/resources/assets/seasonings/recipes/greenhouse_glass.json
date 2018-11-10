@@ -1,0 +1,26 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "#G#",
+    "GWG",
+    "#G#"
+  ],
+  "key": {
+    "#": {
+      "type": "forge:ore_dict",
+	  "ore": "dyeCyan"
+    },
+    "W": {
+      "type": "forge:ore_dict",
+	  "ore": "plankWood"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+	  "ore": "blockGlass"
+    }
+  },
+  "result": {
+    "item": "seasonings:greenhouse_glass",
+    "data": 0
+  }
+}

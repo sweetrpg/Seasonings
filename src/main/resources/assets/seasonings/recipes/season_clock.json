@@ -1,0 +1,21 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " # ",
+    "#R#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "type": "forge:ore_dict",
+	  "ore": "gemQuartz"
+    },
+    "R": {
+      "type": "forge:ore_dict",
+	  "ore": "dustRedstone"
+    }
+  },
+  "result": {
+    "item": "seasonings:season_clock"
+  }
+}
