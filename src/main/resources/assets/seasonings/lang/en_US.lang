@@ -1,9 +1,9 @@
-commands.sereneseasons.usage=/sereneseasons <setseason> [args]
-commands.sereneseasons.setseason.success=Set season to %s
-commands.sereneseasons.setseason.fail=Invalid season %s
-commands.sereneseasons.setseason.disabled=Seasons are currently disabled!
+commands.seasonings.usage=/seasonings <setseason> [args]
+commands.seasonings.setseason.success=Set season to %s
+commands.seasonings.setseason.fail=Invalid season %s
+commands.seasonings.setseason.disabled=Seasons are currently disabled!
 
-itemGroup.tabSereneSeasons=Serene Seasons
+itemGroup.tabseasonings=Serene Seasons
 
 tile.greenhouse_glass.name=Greenhouse Glass
 tile.season_sensor_spring.name=Season Sensor

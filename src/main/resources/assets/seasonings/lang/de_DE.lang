@@ -1,8 +1,8 @@
-commands.sereneseasons.setseason.success=Jahreszeit auf %s gesetzt
-commands.sereneseasons.setseason.fail=Ungültige Jahreszeit %s
-commands.sereneseasons.setseason.disabled=Jahreszeiten sind aktuell deaktiviert!
+commands.seasonings.setseason.success=Jahreszeit auf %s gesetzt
+commands.seasonings.setseason.fail=Ungültige Jahreszeit %s
+commands.seasonings.setseason.disabled=Jahreszeiten sind aktuell deaktiviert!
 
-itemGroup.tabSereneSeasons=Serene Seasons
+itemGroup.tabseasonings=Serene Seasons
 
 tile.greenhouse_glass.name=Gewächshausglas
 tile.season_sensor_spring.name=Jahreszeitensensor

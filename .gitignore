@@ -16,5 +16,5 @@
 *.iml
 *.ipr
 *.iws
-src/main/resources/META-INF/biomesoplenty_at.cfg
+src/main/resources/META-INF/seasonings_at.cfg
 *.launch

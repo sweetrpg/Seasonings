@@ -24,9 +24,9 @@ configFile.withReader {
     project.ext.config = new ConfigSlurper().parse prop
 }
 
-group = "com.github.glitchfiend.biomesoplenty"
+group = "com.github.sweetrpg"
 version = "${config.minecraft_version}-${config.mod_version}.${System.getenv().BUILD_NUMBER}"
-archivesBaseName = "SereneSeasons"
+archivesBaseName = "Seasonings"
 
 config.build_number = (System.getenv().BUILD_NUMBER) ? System.getenv().BUILD_NUMBER : ""
 
@@ -42,15 +42,15 @@ minecraft {
     
     replace '@MOD_VERSION@', config.mod_version + buildnum
     replace '1.0.0.0', config.forge_version
-    replaceIn 'SereneSeasons.java'
+    replaceIn 'Seasonings.java'
 }
 
 def commonManifest = {
 		attributes (
-			"FMLCorePlugin": 'sereneseasons.asm.SSLoadingPlugin',
+			"FMLCorePlugin": 'seasonings.asm.SSLoadingPlugin',
 			"FMLCorePluginContainsFMLMod": 'true',
 			"ForceLoadAsMod": 'true',
-			"FMLAT": 'sereneseasons_at.cfg'
+			"FMLAT": 'seasonings_at.cfg'
 		)
 }
 
@@ -97,11 +97,11 @@ task deobfJar(type: Jar) {
 
 task apiJar(type: Jar) {
     from(sourceSets.main.allJava) {
-        include 'sereneseasons/api/**'
+        include 'seasonings/api/**'
     }
     from (sourceSets.main.output) {
         include 'LICENSE.txt'
-        include 'sereneseasons/api/**'
+        include 'seasonings/api/**'
     }
 
     classifier = 'api'

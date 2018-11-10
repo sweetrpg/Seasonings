@@ -1,9 +1,9 @@
-commands.sereneseasons.usage=/sereneseasons <setseason> [args]
-commands.sereneseasons.setseason.success=Estación establecida a %s
-commands.sereneseasons.setseason.fail=Estación inválida %s
-commands.sereneseasons.setseason.disabled=Las estaciones se encuentran deshabilitadas!
+commands.seasonings.usage=/seasonings <setseason> [args]
+commands.seasonings.setseason.success=Estación establecida a %s
+commands.seasonings.setseason.fail=Estación inválida %s
+commands.seasonings.setseason.disabled=Las estaciones se encuentran deshabilitadas!
 
-itemGroup.tabSereneSeasons=Serene Seasons
+itemGroup.tabseasonings=Serene Seasons
 
 tile.greenhouse_glass.name=Cristal de invernadero
 tile.season_sensor_spring.name=Sensor de estación
